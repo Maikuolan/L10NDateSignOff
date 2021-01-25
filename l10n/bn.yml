@@ -1,0 +1,23 @@
+##\
+# This file is a part of the Maikuolan\L10NDateSignOff package by Caleb M (Maikuolan).
+#
+# This file: Bangla language data (last modified: 2021.01.25).
+##/
+
+Local Name: "বাংলা"
+Numerals: "Western"
+
+January: "জানুয়ারী"
+February: "ফেব্রুয়ারি"
+March: "মার্চ"
+April: "এপ্রিল"
+May: "মে"
+June: "জুন"
+July: "জুলাই"
+August: "আগস্ট"
+September: "সেপ্টেম্বর"
+October: "অক্টোবর"
+November: "নভেম্বর"
+December: "ডিসেম্বর"
+
+Preferred Format: "{YYYY} সালের {D} {Month} ({YYYY}.{MM}.{DD})।"

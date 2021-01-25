@@ -1,0 +1,23 @@
+##\
+# This file is a part of the Maikuolan\L10NDateSignOff package by Caleb M (Maikuolan).
+#
+# This file: Tamil language data (last modified: 2021.01.25).
+##/
+
+Local Name: "தமிழ்"
+Numerals: "Western"
+
+January: "ஜனவரி"
+February: "பிப்ரவரி"
+March: "மார்ச்"
+April: "ஏப்ரல்"
+May: "மே"
+June: "ஜூன்"
+July: "ஜூலை"
+August: "ஆகஸ்ட்"
+September: "செப்டம்பர்"
+October: "அக்டோபர்"
+November: "நவம்பர்"
+December: "டிசம்பர்"
+
+Preferred Format: "{Month} {D}, {YYYY} ({YYYY}.{MM}.{DD})."

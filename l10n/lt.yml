@@ -1,0 +1,23 @@
+##\
+# This file is a part of the Maikuolan\L10NDateSignOff package by Caleb M (Maikuolan).
+#
+# This file: Lithuanian language data (last modified: 2021.01.25).
+##/
+
+Local Name: "Lietuvių"
+Numerals: "Western"
+
+January: "Sausio"
+February: "Vasario"
+March: "Kovo"
+April: "Balandžio"
+May: "Gegužės"
+June: "Birželio"
+July: "Liepos"
+August: "Rugpjūčio"
+September: "Rugsėjo"
+October: "Spalio"
+November: "Lapkričio"
+December: "Gruodžio"
+
+Preferred Format: "{YYYY} m. {Month} d. {D} ({YYYY}.{MM}.{DD})."

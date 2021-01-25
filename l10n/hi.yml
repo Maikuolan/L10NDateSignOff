@@ -1,0 +1,23 @@
+##\
+# This file is a part of the Maikuolan\L10NDateSignOff package by Caleb M (Maikuolan).
+#
+# This file: Hindi language data (last modified: 2021.01.25).
+##/
+
+Local Name: "हिंदी"
+Numerals: "Western"
+
+January: "जनवरी"
+February: "फरवरी"
+March: "मार्च"
+April: "अप्रैल"
+May: "मई"
+June: "जून"
+July: "जुलाई"
+August: "अगस्त"
+September: "सितंबर"
+October: "अक्टूबर"
+November: "नवंबर"
+December: "दिसंबर"
+
+Preferred Format: "{Month} {YYYY} का {D} ({YYYY}.{MM}.{DD})।"

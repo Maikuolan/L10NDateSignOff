@@ -1,0 +1,23 @@
+##\
+# This file is a part of the Maikuolan\L10NDateSignOff package by Caleb M (Maikuolan).
+#
+# This file: Italian language data (last modified: 2021.01.25).
+##/
+
+Local Name: "Italiano"
+Numerals: "Western"
+
+January: "Gennaio"
+February: "Febbraio"
+March: "Marzo"
+April: "Aprile"
+May: "Maggio"
+June: "Giugno"
+July: "Luglio"
+August: "Agosto"
+September: "Settembre"
+October: "Ottobre"
+November: "Novembre"
+December: "Dicembre"
+
+Preferred Format: "{D} {Month} {YYYY} ({YYYY}.{MM}.{DD})."

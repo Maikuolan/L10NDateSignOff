@@ -1,0 +1,23 @@
+##\
+# This file is a part of the Maikuolan\L10NDateSignOff package by Caleb M (Maikuolan).
+#
+# This file: Greek language data (last modified: 2021.01.25).
+##/
+
+Local Name: "Ελληνικά"
+Numerals: "Western"
+
+January: "Ιανουαρίου"
+February: "Φεβρουαρίου"
+March: "Μαρτίου"
+April: "Απριλίου"
+May: "Μαΐου"
+June: "Ιουνίου"
+July: "Ιουλίου"
+August: "Αυγούστου"
+September: "Σεπτεμβρίου"
+October: "Οκτωβρίου"
+November: "Νοεμβρίου"
+December: "Δεκεμβρίου"
+
+Preferred Format: "{D} {Month} {YYYY} ({YYYY}.{MM}.{DD})."

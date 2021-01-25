@@ -1,0 +1,23 @@
+##\
+# This file is a part of the Maikuolan\L10NDateSignOff package by Caleb M (Maikuolan).
+#
+# This file: Urdu language data (last modified: 2021.01.25).
+##/
+
+Local Name: "‏اردو‏"
+Numerals: "Persian"
+
+January: "جنوری"
+February: "فروری"
+March: "مارچ"
+April: "اپریل"
+May: "مئی"
+June: "جون"
+July: "جولائی"
+August: "اگست"
+September: "ستمبر"
+October: "اکتوبر"
+November: "نومبر"
+December: "دسمبر"
+
+Preferred Format: "{D} {Month} {YYYY} ({YYYY}.{MM}.{DD})."

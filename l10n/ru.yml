@@ -1,0 +1,23 @@
+##\
+# This file is a part of the Maikuolan\L10NDateSignOff package by Caleb M (Maikuolan).
+#
+# This file: Russian language data (last modified: 2021.01.25).
+##/
+
+Local Name: "Русский"
+Numerals: "Western"
+
+January: "Января"
+February: "Февраля"
+March: "Марта"
+April: "Апреля"
+May: "Мая"
+June: "Июня"
+July: "Июля"
+August: "Августа"
+September: "Сентября"
+October: "Октября"
+November: "Ноября"
+December: "Декабря"
+
+Preferred Format: "{D} {Month} {YYYY} г ({YYYY}.{MM}.{DD})."

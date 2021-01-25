@@ -1,0 +1,23 @@
+##\
+# This file is a part of the Maikuolan\L10NDateSignOff package by Caleb M (Maikuolan).
+#
+# This file: Latvian language data (last modified: 2021.01.25).
+##/
+
+Local Name: "Latviešu"
+Numerals: "Western"
+
+January: "Janvāris"
+February: "Februāris"
+March: "Marts"
+April: "Aprīlis"
+May: "Maijs"
+June: "Jūnijs"
+July: "Jūlijs"
+August: "Augusts"
+September: "Septembris"
+October: "Oktobris"
+November: "Novembris"
+December: "Decembris"
+
+Preferred Format: "{YYYY}. gada {D}. {Month} ({YYYY}.{MM}.{DD})."

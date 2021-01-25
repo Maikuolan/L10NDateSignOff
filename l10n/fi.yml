@@ -1,0 +1,23 @@
+##\
+# This file is a part of the Maikuolan\L10NDateSignOff package by Caleb M (Maikuolan).
+#
+# This file: Finnish language data (last modified: 2021.01.25).
+##/
+
+Local Name: "Suomi"
+Numerals: "Western"
+
+January: "Tammikuuta"
+February: "Helmikuuta"
+March: "Maaliskuuta"
+April: "Huhtikuuta"
+May: "Toukokuuta"
+June: "Kesäkuuta"
+July: "Heinäkuuta"
+August: "Elokuuta"
+September: "Syyskuuta"
+October: "Lokakuuta"
+November: "Marraskuuta"
+December: "Joulukuuta"
+
+Preferred Format: "{D}. {Month} {YYYY} ({YYYY}.{MM}.{DD})."

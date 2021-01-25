@@ -1,0 +1,23 @@
+##\
+# This file is a part of the Maikuolan\L10NDateSignOff package by Caleb M (Maikuolan).
+#
+# This file: Estonian language data (last modified: 2021.01.25).
+##/
+
+Local Name: "Eesti"
+Numerals: "Western"
+
+January: "Jaanuar"
+February: "Veebruar"
+March: "Märts"
+April: "Aprill"
+May: "Mai"
+June: "Juuni"
+July: "Juuli"
+August: "August"
+September: "September"
+October: "Oktoober"
+November: "November"
+December: "Detsember"
+
+Preferred Format: "{D}. {Month} {YYYY} ({YYYY}.{MM}.{DD})."

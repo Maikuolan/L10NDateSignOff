@@ -1,0 +1,23 @@
+##\
+# This file is a part of the Maikuolan\L10NDateSignOff package by Caleb M (Maikuolan).
+#
+# This file: Portuguese language data (last modified: 2021.01.25).
+##/
+
+Local Name: "Português"
+Numerals: "Western"
+
+January: "Janeiro"
+February: "Fevereiro"
+March: "Março"
+April: "Abril"
+May: "Maio"
+June: "Junho"
+July: "Julho"
+August: "Agosto"
+September: "Setembro"
+October: "Outubro"
+November: "Novembro"
+December: "Dezembro"
+
+Preferred Format: "{D} de {Month} de {YYYY} ({YYYY}.{MM}.{DD})."

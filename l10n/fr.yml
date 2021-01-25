@@ -1,0 +1,23 @@
+##\
+# This file is a part of the Maikuolan\L10NDateSignOff package by Caleb M (Maikuolan).
+#
+# This file: French language data (last modified: 2021.01.25).
+##/
+
+Local Name: "Français"
+Numerals: "Western"
+
+January: "Janvier"
+February: "Février"
+March: "Mars"
+April: "Avril"
+May: "Mai"
+June: "Juin"
+July: "Juillet"
+August: "Août"
+September: "Septembre"
+October: "Octobre"
+November: "Novembre"
+December: "Décembre"
+
+Preferred Format: "{D} {Month} {YYYY} ({YYYY}.{MM}.{DD})."

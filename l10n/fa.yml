@@ -1,0 +1,23 @@
+##\
+# This file is a part of the Maikuolan\L10NDateSignOff package by Caleb M (Maikuolan).
+#
+# This file: Farsi language data (last modified: 2021.01.25).
+##/
+
+Local Name: "‏فارسی‏"
+Numerals: "Persian"
+
+January: "ژانویه"
+February: "فوریه"
+March: "مارس"
+April: "آوریل"
+May: "مه"
+June: "ژوئن"
+July: "جولای"
+August: "آگوست"
+September: "سپتامبر"
+October: "اکتبر"
+November: "نوامبر"
+December: "دسامبر"
+
+Preferred Format: "{D} {Month} {YYYY} ({YYYY}.{MM}.{DD})."

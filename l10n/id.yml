@@ -1,0 +1,23 @@
+##\
+# This file is a part of the Maikuolan\L10NDateSignOff package by Caleb M (Maikuolan).
+#
+# This file: Indonesian language data (last modified: 2021.01.25).
+##/
+
+Local Name: "Bahasa Indonesia"
+Numerals: "Western"
+
+January: "Januari"
+February: "Februari"
+March: "Maret"
+April: "April"
+May: "Mei"
+June: "Juni"
+July: "Juli"
+August: "Agustus"
+September: "September"
+October: "Oktober"
+November: "November"
+December: "Desember"
+
+Preferred Format: "{D} {Month} {YYYY} ({YYYY}.{MM}.{DD})."

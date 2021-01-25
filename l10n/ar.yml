@@ -1,0 +1,23 @@
+##\
+# This file is a part of the Maikuolan\L10NDateSignOff package by Caleb M (Maikuolan).
+#
+# This file: Arabic language data (last modified: 2021.01.25).
+##/
+
+Local Name: "العربية"
+Numerals: "Eastern"
+
+January: "يناير"
+February: "فبراير"
+March: "مارس"
+April: "أبريل"
+May: "مايو"
+June: "يونيو"
+July: "يوليو"
+August: "أغسطس"
+September: "سبتمبر"
+October: "أكتوبر"
+November: "نوفمبر"
+December: "ديسمبر"
+
+Preferred Format: "{D} {Month} {YYYY} ({YYYY}.{MM}.{DD})."

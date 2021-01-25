@@ -1,0 +1,10 @@
+##\
+# This file is a part of the Maikuolan\L10NDateSignOff package by Caleb M (Maikuolan).
+#
+# This file: Vietnamese language data (last modified: 2021.01.25).
+##/
+
+Local Name: "Tiếng Việt"
+Numerals: "Western"
+
+Preferred Format: "{YYYY}.{MM}.{DD}."

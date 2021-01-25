@@ -1,0 +1,23 @@
+##\
+# This file is a part of the Maikuolan\L10NDateSignOff package by Caleb M (Maikuolan).
+#
+# This file: Khmer language data (last modified: 2021.01.25).
+##/
+
+Local Name: "ខ្មែរ"
+Numerals: "Khmer"
+
+January: "ខែមករាឆ្នាំ"
+February: "ខែកុម្ភៈឆ្នាំ"
+March: "ខែមីនាឆ្នាំ"
+April: "ខែមេសាឆ្នាំ"
+May: "ខែឧសភាឆ្នាំ"
+June: "ខែមិថុនាឆ្នាំ"
+July: "ខែកក្កដាឆ្នាំ"
+August: "ខែសីហាឆ្នាំ"
+September: "ខែកញ្ញាឆ្នាំ"
+October: "ខែតុលាឆ្នាំ"
+November: "ខែវិច្ឆិកាឆ្នាំ"
+December: "ខែធ្នូឆ្នាំ"
+
+Preferred Format: "{D} {Month} {YYYY} ({YYYY}.{MM}.{DD})។"
