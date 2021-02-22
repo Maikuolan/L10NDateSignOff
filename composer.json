@@ -1,0 +1,13 @@
+{
+    "name": "maikuolan/l10ndatesignoff",
+    "description": "Quick sign-off tool for when modifying localised documentation and similar.",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/Maikuolan/L10NDateSignOff/issues",
+        "source": "https://github.com/Maikuolan/L10NDateSignOff"
+    },
+    "require": {
+        "php": ">=7.2.0",
+        "maikuolan/common": "^2.5"
+    }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{xmlLang}" xml:lang="{xmlLang}">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>L10NDateSignOff</title>
+  </head>
+  <style>
+*{padding:0;white-space:nowrap;margin:auto}
+body,input{font-size:12px;font-family:BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";letter-spacing:1px;text-decoration:none}
+body{border-style:none;margin:0;background-color:#f6f8fa;color:#24292e;padding:12px}
+body,table{text-align:center}
+table{font-weight:700;border:1px #e1e4e8 solid;border-radius:6px;padding:12px;width:96%;background-color:#fff}
+a:active,a:hover{outline-width:0}
+a:link,a:visited{color:#0366d6;text-decoration:none}
+a:hover{text-decoration:underline;color:#f64}
+a:active,a:focus{color:#cb2431}
+input[type=submit]{color:#fff;background-color:#22863a;height:20px;padding:0 8px 0 8px;font-weight:600;margin:2px;border-color:rgba(27,31,35,.5);border-style:solid;border-width:1px;border-radius:6px}
+  </style>
+  <body>
+    <table>
+      <tr>
+        <td colspan="2">
+          <form method="post" action="">
+            <input type="number" name="year" value="{YYYY}" />
+            <input type="number" name="month" value="{MM}" />
+            <input type="number" name="day" value="{DD}" />
+            <input type="submit" value="OK" />
+          </form>
+          <hr />
+        </td>
+      </tr>
+{Out}
+    </table>
+  </body>
+</html>
