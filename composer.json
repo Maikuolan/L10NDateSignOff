@@ -4,7 +4,8 @@
     "license": "MIT",
     "support": {
         "issues": "https://github.com/Maikuolan/L10NDateSignOff/issues",
-        "source": "https://github.com/Maikuolan/L10NDateSignOff"
+        "source": "https://github.com/Maikuolan/L10NDateSignOff",
+        "rss": "https://github.com/Maikuolan/L10NDateSignOff/releases.atom"
     },
     "require": {
         "php": ">=7.2.0",
