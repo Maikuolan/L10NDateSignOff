@@ -1,6 +1,6 @@
 <?php
 /**
- * Quick sign-off tool for when modifying localised documentation and similar (last modified: 2021.02.07).
+ * Quick sign-off tool for when modifying localised documentation and similar (last modified: 2021.07.01).
  *
  * @link https://github.com/Maikuolan/L10NDateSignOff
  *
@@ -77,9 +77,10 @@ foreach ($SupportedObject as $Item => $List) {
     $Values['MM'] = $Populate['MM'] < 10 ? $Numerals->format(0) . $Values['M'] : $Values['M'];
     $Values['DD'] = $Populate['DD'] < 10 ? $Numerals->format(0) . $Values['D'] : $Values['D'];
     $Values['Month'] = isset($Months[$Populate['MM']], $L10N[$Months[$Populate['MM']]]) ? $L10N[$Months[$Populate['MM']]] : '';
+    $Dir = !isset($L10N['Text Direction']) || $L10N['Text Direction'] !== 'rtl' ? 'ltr' : 'rtl';
     $Populate['Out'] .= $ParseVars(
         $Values,
-        '<input type="button" onclick="javascript:if(navigator.clipboard){var doCopy=\'' . $L10N['Preferred Format'] . '\';navigator.clipboard.writeText(doCopy);alert(\'Copy success\')}else{alert(\'Copy failure\')};" value="' . $L10N['Preferred Format'] . '" />'
+        '<input type="button" onclick="javascript:if(navigator.clipboard){var doCopy=\'' . $L10N['Preferred Format'] . '\';navigator.clipboard.writeText(doCopy);alert(\'Copy success\')}else{alert(\'Copy failure\')};" value="' . $L10N['Preferred Format'] . '" dir="' . $Dir . '" />'
     );
     $Populate['Out'] .= '</td></tr>';
 }

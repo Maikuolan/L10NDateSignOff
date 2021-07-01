@@ -1,11 +1,12 @@
 ##\
 # This file is a part of the Maikuolan\L10NDateSignOff package by Caleb M (Maikuolan).
 #
-# This file: Arabic language data (last modified: 2021.01.25).
+# This file: Arabic language data (last modified: 2021.07.01).
 ##/
 
 Local Name: "العربية"
 Numerals: "Eastern"
+Text Direction: "rtl"
 
 January: "يناير"
 February: "فبراير"
