@@ -22,9 +22,3 @@ jobs:
 
   - name: Validate composer.json and composer.lock
     run: composer validate
-
-  - name: Install dependencies
-    run: composer install --prefer-dist --no-progress
-
-  - name: Run tests
-    run: composer run-script --timeout=360 test
