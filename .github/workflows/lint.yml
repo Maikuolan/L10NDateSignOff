@@ -1,4 +1,4 @@
-name: validate
+name: lint
 
 on: [push, pull_request]
 
@@ -19,6 +19,27 @@ jobs:
     uses: shivammathur/setup-php@v2
     with:
      php-version: ${{ matrix.php-versions }}
+     extensions: pcre
 
   - name: Validate composer.json and composer.lock
     run: composer validate
+
+  - name: Lint
+    run: |
+     lintPaths=()
+     lintPaths+=("${GITHUB_WORKSPACE}/L10NDateSignOff.php")
+     for lintPath in "${lintPaths[@]}"
+     do
+     for file in `find "$lintPath"`
+     do
+     EXTENSION="${file##*.}"
+     if [ "$EXTENSION" == "php" ]
+     then
+     RESULTS=`php -l "$file"`
+     if [ "$RESULTS" != "No syntax errors detected in $file" ]
+     then
+     echo $RESULTS
+     fi
+     fi
+     done
+     done
