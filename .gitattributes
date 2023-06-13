@@ -7,6 +7,7 @@
 # https://github.com/github/linguist
 
 *.md linguist-documentation
+*.txt linguist-documentation
 
 # Stuff not needed for dist installs. Refer to:
 # https://git-scm.com/docs/gitattributes#_creating_an_archive
@@ -15,3 +16,11 @@
 /.github export-ignore
 /.gitattributes export-ignore
 /.gitignore export-ignore
+
+# Going to be a bit more explicit about languages in order to ensure that files
+# are detected and identified *correctly*. Refer to:
+# https://github.com/github-linguist/linguist/blob/master/lib/linguist/languages.yml
+
+*.html linguist-language=HTML
+*.php linguist-language=PHP
+*.yml linguist-language=YAML
