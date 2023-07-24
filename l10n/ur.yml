@@ -1,12 +1,11 @@
 ##\
 # This file is a part of the Maikuolan\L10NDateSignOff package by Caleb M (Maikuolan).
 #
-# This file: Urdu language data (last modified: 2021.07.01).
+# This file: Urdu language data (last modified: 2023.07.24).
 ##/
 
 Local Name: "‏اردو‏"
 Numerals: "Persian"
-Text Direction: "rtl"
 
 January: "جنوری"
 February: "فروری"

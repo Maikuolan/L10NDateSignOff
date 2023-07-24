@@ -1,6 +1,6 @@
 <?php
 /**
- * Quick sign-off tool for when modifying localised documentation and similar (last modified: 2021.07.01).
+ * Quick sign-off tool for when modifying localised documentation and similar (last modified: 2023.07.24).
  *
  * @link https://github.com/Maikuolan/L10NDateSignOff
  *
@@ -55,6 +55,9 @@ $Months = [
     11 => 'November',
     12 => 'December'
 ];
+
+$L10NObj = new \Maikuolan\Common\L10N();
+
 foreach ($SupportedObject as $Item => $List) {
     if (!$Item || !is_readable($Item) || substr($Item, -4) !== '.yml') {
         continue;
@@ -77,7 +80,7 @@ foreach ($SupportedObject as $Item => $List) {
     $Values['MM'] = $Populate['MM'] < 10 ? $Numerals->format(0) . $Values['M'] : $Values['M'];
     $Values['DD'] = $Populate['DD'] < 10 ? $Numerals->format(0) . $Values['D'] : $Values['D'];
     $Values['Month'] = isset($Months[$Populate['MM']], $L10N[$Months[$Populate['MM']]]) ? $L10N[$Months[$Populate['MM']]] : '';
-    $Dir = !isset($L10N['Text Direction']) || $L10N['Text Direction'] !== 'rtl' ? 'ltr' : 'rtl';
+    $Dir = $L10NObj->getDirectionality(preg_replace('~^(?:.*)[/\\\](.*?)\.yml$~', '\1', $Item));
     $Populate['Out'] .= $ParseVars(
         $Values,
         '<input type="button" onclick="javascript:if(navigator.clipboard){var doCopy=\'' . $L10N['Preferred Format'] . '\';navigator.clipboard.writeText(doCopy);alert(\'Copy success\')}else{alert(\'Copy failure\')};" value="' . $L10N['Preferred Format'] . '" dir="' . $Dir . '" />'
