@@ -1,10 +1,10 @@
 ##\
 # This file is a part of the Maikuolan\L10NDateSignOff package by Caleb M (Maikuolan).
 #
-# This file: Chinese (simplified) language data (last modified: 2021.01.25).
+# This file: Chinese language data (last modified: 2024.07.01).
 ##/
 
-Local Name: "中文（简体）"
+Local Name: "中文"
 Numerals: "Western"
 
 Preferred Format: "{YYYY}年{M}月{D}日。"
