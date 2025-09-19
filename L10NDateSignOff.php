@@ -1,6 +1,6 @@
 <?php
 /**
- * Quick sign-off tool for when modifying localised documentation and similar (last modified: 2023.07.24).
+ * Quick sign-off tool for when modifying localised documentation and similar (last modified: 2025.09.19).
  *
  * @link https://github.com/Maikuolan/L10NDateSignOff
  *
@@ -71,7 +71,7 @@ foreach ($SupportedObject as $Item => $List) {
         continue;
     }
     $Numerals->ConversionSet = $L10N['Numerals'];
-    $Populate['Out'] .= '<tr><td align="right">' . $L10N['Local Name'] . '</td><td align="left">';
+    $Populate['Out'] .= "\n        " . '<div class="end">' . $L10N['Local Name'] . '</div><div class="start">';
     $Values = [
         'YYYY' => $Numerals->format($Populate['YYYY']),
         'M' => $Numerals->format($Populate['MM']),
@@ -85,7 +85,7 @@ foreach ($SupportedObject as $Item => $List) {
         $Values,
         '<input type="button" onclick="javascript:if(navigator.clipboard){var doCopy=\'' . $L10N['Preferred Format'] . '\';navigator.clipboard.writeText(doCopy);alert(\'Copy success\')}else{alert(\'Copy failure\')};" value="' . $L10N['Preferred Format'] . '" dir="' . $Dir . '" />'
     );
-    $Populate['Out'] .= '</td></tr>';
+    $Populate['Out'] .= '</div>';
 }
 
 echo $ParseVars($Populate, file_get_contents(__DIR__ . DIRECTORY_SEPARATOR . 'template.html'));
